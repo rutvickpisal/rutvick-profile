@@ -41,12 +41,12 @@ const Hero = () => {
         >
           <h1 className="text-5xl font-bold mb-4">
             <Typewriter
-              words={["Hey folks,", "I'm Rutvick 👋"]}
-              loop={1}
+              words={["Hey folks,", "I'm Rutvick 👋", "A full stack dev with more than 4 YOE"]}
+              loop={2}
               cursor
               cursorStyle="_"
               typeSpeed={80}
-              deleteSpeed={40}
+              deleteSpeed={100}
               delaySpeed={1000}
             />
           </h1>
@@ -56,7 +56,7 @@ const Hero = () => {
             performant, and engaging applications.
           </p>
           <a
-            href="/resume.pdf"
+            href="rutvick_resume.pdf"
             download
             className="inline-flex items-center px-6 py-3 bg-white text-blue-600 font-medium rounded-full shadow hover:bg-gray-100 transition"
           >
