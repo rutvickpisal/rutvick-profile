@@ -16,7 +16,9 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-simple-typewriter": "^5.0.1",
+    "react-slick": "^0.31.0",
     "react-tsparticles": "^2.12.2",
+    "slick-carousel": "^1.8.1",
     "tsparticles": "^3.9.1"
   },
   "devDependencies": {
