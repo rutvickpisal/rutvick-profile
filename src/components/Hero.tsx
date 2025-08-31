@@ -22,6 +22,28 @@ const Hero = () => {
             ></path>
           </svg>
           <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 120"
+  preserveAspectRatio="none"
+  className="absolute top-0 left-0 w-[200%] h-full animate-wave-mid opacity-80"
+>
+  <path
+    d="M0,39 C200,129 400,-39 600,39 C800,129 1000,-39 1200,39 L1200,120 L0,120Z"
+    fill="#bae6fd"  // Tailwind's sky-200
+  ></path>
+</svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 120"
+  preserveAspectRatio="none"
+  className="absolute top-0 left-[100%] w-[200%] h-full animate-wave-mid opacity-80"
+>
+  <path
+    d="M0,39 C200,129 400,-39 600,39 C800,129 1000,-39 1200,39 L1200,120 L0,120Z"
+    fill="#bae6fd"
+  ></path>
+</svg>
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 120"
             preserveAspectRatio="none"
@@ -94,7 +116,7 @@ const Hero = () => {
           <h1 className="text-5xl font-bold mb-4">
             <Typewriter
               words={["Hey folks,", "I'm Rutvick 👋"]}
-              loop={2}
+              loop={3}
               cursor
               cursorStyle="_"
               typeSpeed={80}

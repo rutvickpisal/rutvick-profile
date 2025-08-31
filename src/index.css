@@ -18,3 +18,11 @@
 .animate-wave-fast {
   animation: wave 10s linear infinite;
 }
+
+.animate-wave-mid {
+  animation: wave 14s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
