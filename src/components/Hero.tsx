@@ -1,14 +1,14 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
-import devImage from "../assets/dev.png"; // Replace with your illustration
+import devImage from "../assets/dev6.png"; // Replace with your illustration
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-to-r from-cyan-400 to-blue-500 overflow-hidden">
       {/* Waves Background */}
       <div className="absolute bottom-0 left-0 w-full">
-        <div className="relative w-full h-40 overflow-hidden">
+        <div className="relative w-full h-24 sm:h-32 md:h-40 overflow-hidden">
           {/* Back wave (slower, lighter) */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between w-full px-6 relative z-10">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between w-full px-2 md:px-6 relative z-10">
         {/* Left Image */}
         <motion.div
           initial={{ x: -50, opacity: 0 }}
@@ -89,21 +89,22 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="md:w-1/2 flex justify-center relative"
         >
-          <div className="absolute -z-10 w-72 h-72 bg-cyan-300 rounded-full blur-3xl opacity-30"></div>
-          <motion.img
-            src={devImage}
-            alt="Developer"
-            className="w-80 h-auto rounded-xl shadow-2xl"
-            style={{
-              mixBlendMode: "soft-light", // Try 'screen', 'overlay', or 'soft-light' for different effects
-              opacity: 0.95,
-              borderRadius: "1rem",
-              boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.37)"
-            }}
-            initial={{ y: 0 }}
-            animate={{ y: [0, -15, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          />
+          <div className="absolute -z-10 w-80 h-80 bg-cyan-400 rounded-full blur-2xl opacity-0"></div>
+  <motion.img
+    src={devImage}
+    alt="Developer"
+    className="w-[500px] object-contain"
+  style={{
+    mixBlendMode: "multiply", // or 'darken'
+    opacity: 1,
+    WebkitMaskImage: "linear-gradient(black, black)", // ensures alpha respected
+    WebkitMaskRepeat: "no-repeat",
+    WebkitMaskSize: "100% 100%",
+  }}
+    initial={{ y: 0 }}
+    animate={{ y: [0, -15, 0] }}
+    transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+  />
           </motion.div>
 
         {/* Right Text */}
