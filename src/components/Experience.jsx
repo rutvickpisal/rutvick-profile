@@ -7,21 +7,21 @@ const Experience = () => {
       company: "Infosys",
       period: "Feb 2025 – Present",
       description:
-        "Leading modules in large-scale projects, ensuring process efficiency, mentoring juniors, and implementing scalable solutions for clients.",
+        "Developed and maintained risk assessment and data management tools for major banking clients, ensuring compliance, security, and efficiency. Built scalable microservices and secure REST APIs with React, TypeScript, and Spring Boot, gained good exposure to CI/CD pipelines, containerization, and code quality practices to deliver high-performance solutions.",
     },
     {
       role: "Systems Engineer",
       company: "Tata Consultancy Services",
       period: "July 2021 – Jan 2025",
       description:
-        "Worked on enterprise-scale applications, gathered requirements, created technical flows, and delivered features aligning with client objectives.",
+        "Implemented 20+ production-grade REST APIs, optimized performance with caching and database tuning, and integrated multiple payment gateways. I also built responsive React + Redux interfaces, deployed cloud solutions on AWS, and ensured quality through automated testing and CI/CD pipelines.",
     },
     {
       role: "Intern",
       company: "CargoFL",
       period: "Jan 2021 – July 2021",
       description:
-        "Contributed to backend and frontend modules, assisted in debugging, and gained hands-on experience in real-world logistics solutions.",
+        "Contributed to frontend modules, assisted in debugging, and gained hands-on experience in real-world logistics solutions.",
     },
   ];
 

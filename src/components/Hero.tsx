@@ -126,9 +126,9 @@ const Hero = () => {
             />
           </h1>
           <p className="text-lg mb-6">
-            With a passion for building seamless web experiences, I specialize
-            in React, Tailwind, and modern web technologies to craft clean,
-            performant, and engaging applications.
+            Experienced Full Stack Developer with 4+ years of expertise in ReactJS, Redux, NodeJS, Typescript, NestJS,
+GraphQL, and MySQL. I specialize in developing robust and scalable end‑to‑end applications, integrating cloud services,
+optimizing front‑end and back‑end workflows.
           </p>
           <a
             href="rutvick_resume.pdf"
